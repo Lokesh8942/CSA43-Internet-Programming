@@ -1,0 +1,21 @@
+<html>
+<body>
+<h2>Beauty Parlour</h2>
+<input id="name" placeholder="Customer Name">
+<select id="service">
+<option>Hair Cut</option>
+<option>Facial</option>
+<option>Makeup</option>
+</select>
+<input id="date" type="date">
+<button onclick="book()">Book Appointment</button>
+<p id="result"></p>
+
+<script>
+function book(){
+ result.innerHTML="Appointment Booked!<br>"+
+ name.value+"<br>"+service.value+"<br>"+date.value;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<body>
+<h2>StyleHub Fashion Store</h2>
+<select id="category">
+<option>Men</option>
+<option>Women</option>
+<option>Kids</option>
+</select>
+<select id="dress">
+<option>Shirt</option>
+<option>Jeans</option>
+<option>T-Shirt</option>
+</select>
+<button onclick="buy()">Add to Cart</button>
+<p id="result"></p>
+
+<script>
+function buy(){
+ result.innerHTML="Category: "+category.value+
+ "<br>Product: "+dress.value+
+ "<br>Added to Cart Successfully!";
+}
+</script>
+</body>
+</html>

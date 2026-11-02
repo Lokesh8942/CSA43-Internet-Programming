@@ -1,0 +1,21 @@
+<html>
+<body>
+<h2>Cake Shop</h2>
+<select id="cake">
+<option>Chocolate Cake</option>
+<option>Vanilla Cake</option>
+<option>Black Forest</option>
+</select>
+<input id="qty" type="number" placeholder="Quantity">
+<button onclick="order()">Order Cake</button>
+<p id="result"></p>
+
+<script>
+function order(){
+ let price=300*qty.value;
+ result.innerHTML="Cake: "+cake.value+
+ "<br>Total Price: Rs."+price;
+}
+</script>
+</body>
+</html>

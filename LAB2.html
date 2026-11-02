@@ -1,0 +1,20 @@
+<html>
+<body>
+<h2>Hotel Booking</h2>
+<input id="name" placeholder="Customer Name">
+<select id="room">
+<option>Single Room</option>
+<option>Double Room</option>
+<option>Deluxe Room</option>
+</select>
+<button onclick="book()">Book Room</button>
+<p id="result"></p>
+
+<script>
+function book(){
+ document.getElementById("result").innerHTML=
+ "Booking Confirmed for "+name.value+" - "+room.value;
+}
+</script>
+</body>
+</html>

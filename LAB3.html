@@ -1,0 +1,19 @@
+<html>
+<body>
+<h2>Bus Ticket Booking</h2>
+<input id="user" placeholder="Passenger Name">
+<select id="bus">
+<option>Volvo</option>
+<option>Sleeper</option>
+<option>AC Bus</option>
+</select>
+<button onclick="book()">Book Ticket</button>
+<h3 id="result"></h3>
+
+<script>
+function book(){
+ result.innerHTML="Ticket Booked Successfully: "+user.value+" - "+bus.value;
+}
+</script>
+</body>
+</html>

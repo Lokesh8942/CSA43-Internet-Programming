@@ -1,0 +1,21 @@
+<html>
+<body>
+<h2>Electronic Shopping</h2>
+<select id="product">
+<option>Mobile</option>
+<option>Laptop</option>
+<option>Tablet</option>
+</select>
+<input id="qty" type="number" placeholder="Quantity">
+<button onclick="buy()">Add to Cart</button>
+<p id="result"></p>
+
+<script>
+function buy(){
+ result.innerHTML="Product: "+product.value+
+ "<br>Quantity: "+qty.value+
+ "<br>Added to Cart Successfully!";
+}
+</script>
+</body>
+</html>

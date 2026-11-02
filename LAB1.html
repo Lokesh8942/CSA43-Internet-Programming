@@ -1,0 +1,17 @@
+<html>
+<body>
+<h2>Library Management</h2>
+<input id="book" placeholder="Enter Book Name">
+<button onclick="add()">Add Book</button>
+<ul id="list"></ul>
+
+<script>
+function add(){
+ let b=document.getElementById("book").value;
+ let li=document.createElement("li");
+ li.innerHTML=b+" <button onclick='this.parentElement.remove()'>Delete</button>";
+ document.getElementById("list").appendChild(li);
+}
+</script>
+</body>
+</html>
